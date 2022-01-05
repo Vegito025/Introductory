@@ -1,0 +1,19 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+#home video{
+    position: absolute;
+    top: -2%;
+}
+.navbar{
+    background-color: transparent;
+}
+.nav-link{
+    font-size: x-large;
+    color: white;
+}
+
+.navbar-toggler {
+   color: white;
+}
