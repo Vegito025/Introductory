@@ -8,12 +8,26 @@ body{
 }
 .navbar{
     background-color: transparent;
+    
 }
 .nav-link{
-    font-size: x-large;
-    color: white;
+    font-size: larger;
+    color: whitesmoke;
 }
 
 .navbar-toggler {
    color: white;
+}
+
+.hello{
+   
+   padding-top: 10%;
+   padding-left: 3%;
+   font-size: 50px;
+   color: white;
+}
+#home p{
+    padding-left: 3%;
+    font-size: 40px;
+    color: white;
 }
