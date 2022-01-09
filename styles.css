@@ -82,9 +82,16 @@ nav{
     }
 
     #home h1{
-        font-size: 30px;
+        padding-top: 35%;
+        font-size: 60px;
     }
     #home p{
-        font-size: 15px;
+        font-size: 30px;
+        padding-top: 0;
+        margin-top: 15px;
     }
+    #home video{
+        width: 175%;
+    }
+    
 }
