@@ -1,37 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@1,500&display=swap');
+
 body{
     padding: 0;
     margin: 0;
 }
-/* #home video{
+#home video{
     position: absolute;
-    top: -2%;
-} */
+    
+}
 nav{
+    
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
-    padding: 15px;
+    padding: 5px;
+    background-color: black;
 }
 
 .nav-ul{
+    
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 0;
+    padding: 0 15px 0 0;
     list-style-type: none;
+    
 }
 .nav-ul li a{
     display: inline-block;
-    color: black;
+    color: white;
     padding: 10px 20px;
     text-decoration: none;
+    font-size: 18px;
+    font-family: 'Raleway', sans-serif;
 }
 
 .hamburger{
     background-color: transparent;
     border: 0;
-    color: black;
+    color: white;
     font-size: 20px;
     cursor: pointer;
     display: none;
@@ -39,6 +48,22 @@ nav{
 .hamburger:focus{
     outline: none;
 }
+#home h1{
+    margin: 0;
+    padding-top: 20%;
+    padding-left: 3%;
+    font-size: 60px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    color: white;
+}
+#home p{
+    padding-left: 3%;
+    font-size: 30px;
+    color: white;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+
 
 
 @media screen and (max-width: 767px) {
@@ -54,5 +79,12 @@ nav{
 
     .nav-ul.show{
         display: flex;
+    }
+
+    #home h1{
+        font-size: 30px;
+    }
+    #home p{
+        font-size: 15px;
     }
 }
