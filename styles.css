@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=BioRhyme&display=swap');
 
 body{
     padding: 0;
@@ -53,19 +54,43 @@ nav{
     margin: 0;
     padding-top: 20%;
     padding-left: 3%;
-    font-size: 60px;
+    font-size: 80px;
     font-family: 'IBM Plex Sans', sans-serif;
     color: white;
 }
 #home p{
     padding-left: 3%;
-    font-size: 30px;
+    font-size: 40px;
     color: white;
     font-family: 'IBM Plex Sans', sans-serif;
+    margin-top: 15px;
+    padding-bottom: 23.50%;
+    margin-bottom: 0px;
 }
 
+#about{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+    padding-top: 8%;
+}
+#about h1{
+    font-family: 'Raleway', sans-serif;
+color: white;
+}
+#about img{
+    padding-bottom: 2%;
+}
 
-
+#about h3{
+    text-align: center;
+    padding: 0 15% 7% 15%;
+    font-size: x-large;
+    font-family: 'Raleway', sans-serif;
+    margin-top: 1.5%;
+    color: white;
+}
 
 @media screen and (max-width: 768px){
     .nav-ul{
@@ -84,11 +109,15 @@ nav{
 
     #home h1{
         font-size: 35px;
-       
+    
     }
     #home p{
         font-size: 20px;
         margin-top: 15px;
+       
     }
 
+    
+
+ 
 }
