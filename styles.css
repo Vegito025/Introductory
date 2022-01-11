@@ -6,6 +6,9 @@ body{
     padding: 0;
     margin: 0;
 }
+.nav-custom{
+    position: sticky;
+}
 #home video{
     position: absolute;
 
@@ -96,6 +99,110 @@ color: white;
     margin-top: 1.5%;
     color: white;
 }
+
+
+
+.skills h1{
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    padding-top: 5%;
+    font-family: "Raleway", sans-serif;
+    
+}
+.skills p{
+    padding-bottom: 5%;
+    padding-right: 10%;
+    padding-left: 10%;
+    text-align: center;
+    font-family: "Raleway", sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+
+}
+.skills img{
+    padding-left: 35%;
+    padding-top: 5%;
+}
+#skills{
+
+    width: 100%;
+    display: flex;
+    
+    padding-bottom: 10%;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to right, #5FCEE0, #2278FB);
+    
+    
+
+}
+
+.python{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    
+}
+#python{
+    align-self: center;
+}
+#list{
+    display:none;
+}
+#list h3{
+    font-family: "Raleway", sans-serif;
+    border: 1px solid black;
+    padding: 25px;
+}
+#list.show-lists{
+    display: block;
+}
+.web{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    
+    justify-content: center;
+}
+#web{
+    align-self: center;
+
+}
+
+#list-2{
+    display:none;
+    
+}
+#list-2 h3{
+    font-family:"Raleway", sans-serif;
+    padding: 25px;
+    border: 1px solid black;
+    margin: 10px;
+}
+#list-2.show-lists{
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    padding-left: 10%;
+
+}
+#python, #web{
+    background-color: black;
+    color: white;
+    padding: 25px;
+    border: none;
+    font-size: large;
+    border-radius: 20px;
+    cursor: pointer;
+}
+#python:hover, #web:hover{
+    background-color: white;
+    color: black;
+
+}
+
 /************************************Nav Bar******************************************/
 
 @media screen and (max-width: 768px) {
@@ -313,5 +420,36 @@ color: white;
         padding-top: 17%;
         padding-bottom: 10%;
     }
-    
+
+    #python{
+        font-size: small;
+    }
+    #web{
+        font-size: small;
+    }
+    #list-2.show-lists{
+        grid-template-columns: 50% 50%;
+        padding-left: 0;
+    }
+    #list-2.show-lists h3{
+        font-size: small;
+        text-align: center;
+    }
+    .python{
+        padding-bottom: 10%;
+    }
+    #skills{
+        flex-wrap: wrap;
+    }
+    .skills img{
+        padding-left: 36%;
+    }
+    .skills h1{
+        font-size: 20px;
+        font-weight: bold;
+    }
+    .skills p{
+        font-size: 11.55px;
+    font-weight: bold;
+    }
 }
