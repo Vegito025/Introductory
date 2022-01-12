@@ -156,9 +156,15 @@ color: white;
     font-family: "Raleway", sans-serif;
     border: 1px solid black;
     padding: 25px;
+    margin-top: 21%;
+    font-weight: bold;
+    border-radius: 10px;
+    text-align: center;
+   
 }
 #list.show-lists{
     display: block;
+    
 }
 .web{
     width: 100%;
@@ -181,11 +187,18 @@ color: white;
     padding: 25px;
     border: 1px solid black;
     margin: 10px;
+    margin-top: 10%;
+    font-weight: bold;
+    border-radius: 10px;
+    text-align: center;
+    
 }
 #list-2.show-lists{
     display: grid;
-    grid-template-columns: 30% 30% 30%;
-    padding-left: 10%;
+    grid-template-columns: 50% 50%;
+    padding-left: 5%;
+    padding-right: 5%;
+    
 
 }
 #python, #web{
@@ -201,6 +214,49 @@ color: white;
     background-color: white;
     color: black;
 
+}
+#list-2 h3:hover, #list h3:hover{
+    background-color: white;
+
+    
+}
+
+#contact{
+    padding: 10% 0 10% 0;
+    background-color: black;
+}
+#contact h1, #contact h3{
+    font-family: "raleway", sans-serif;
+    color: white;
+    text-align: center;
+}
+
+#contact .links{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#contact .links a{
+    padding: 1.5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    font-size: 60px;
+    background-color: black;
+    border: 0;
+    
+}
+#contact h3{
+    font-size: 25px;
+}
+#contact .links a{
+    background-color: black;
+    color: blue;
+}
+.links{
+    padding-top: 5%;
+}
+#contact .links a:hover{
+    color: gold;
 }
 
 /************************************Nav Bar******************************************/
@@ -303,7 +359,8 @@ color: white;
         flex-wrap: wrap;
     }
     .skills img{
-        padding-left: 36%;
+        width: 45%;
+        padding-left: 28%;
     }
     .skills h1{
         font-size: 26px;
@@ -326,6 +383,7 @@ color: white;
     #list-2.show-lists{
         grid-template-columns: 50% 50%;
         padding-left: 0;
+        padding-right: 0;
     }
     #list-2.show-lists h3{
         font-size: medium;
@@ -333,6 +391,20 @@ color: white;
     }
     .python{
         padding-bottom: 10%;
+    }
+    #contact h1{
+        font-size: 26px;
+    }
+    #contact h3{
+        font-size: 17px; 
+    }
+    #contact{
+        padding-right: 10%;
+        padding-left: 10%;
+    }
+    #contact .links a{
+        margin: 3%;
+        font-size: 45px ;
     }
     
 }
@@ -381,7 +453,8 @@ color: white;
         flex-wrap: wrap;
     }
     .skills img{
-        padding-left: 36%;
+        width: 45%;
+        padding-left: 28%;
     }
     .skills h1{
         font-size: 24px;
@@ -400,6 +473,7 @@ color: white;
     #list-2.show-lists{
         grid-template-columns: 50% 50%;
         padding-left: 0;
+        padding-right: 0;
     }
     #list-2.show-lists h3{
         font-size: small;
@@ -408,10 +482,24 @@ color: white;
     .python{
         padding-bottom: 10%;
     }
+    #contact h1{
+        font-size: 24px;
+    }
+    #contact h3{
+        font-size: 15px; 
+    }
+    #contact{
+        padding-right: 10%;
+        padding-left: 10%;
+    }
+    #contact .links a{
+        margin: 3%;
+        font-size: 40px ;
+    }
 }
 /***************************************Medium Mobile View*****************************************/
 
-/****Small Mobile View ****/
+
 @media screen and (max-width: 375px) {
     nav{
         padding: 0;
@@ -451,7 +539,8 @@ color: white;
         flex-wrap: wrap;
     }
     .skills img{
-        padding-left: 36%;
+        width: 45%;
+        padding-left: 28%;
     }
     .skills h1{
         font-size: 22px;
@@ -470,6 +559,7 @@ color: white;
     #list-2.show-lists{
         grid-template-columns: 50% 50%;
         padding-left: 0;
+        padding-right: 0;
     }
     #list-2.show-lists h3{
         font-size: small;
@@ -477,6 +567,20 @@ color: white;
     }
     .python{
         padding-bottom: 10%;
+    }
+    #contact h1{
+        font-size: 22px;
+    }
+    #contact h3{
+        font-size: 13px; 
+    }
+    #contact{
+        padding-right: 10%;
+        padding-left: 10%;
+    }
+    #contact .links a{
+        margin: 3%;
+        font-size: 35px ;
     }
 }
 /****Small Mobile View ****/
@@ -525,6 +629,7 @@ color: white;
     #list-2.show-lists{
         grid-template-columns: 50% 50%;
         padding-left: 0;
+        padding-right: 0;
     }
     #list-2.show-lists h3{
         font-size: small;
@@ -537,7 +642,8 @@ color: white;
         flex-wrap: wrap;
     }
     .skills img{
-        padding-left: 36%;
+        width: 45%;
+        padding-left: 28%;
     }
     .skills h1{
         font-size: 20px;
@@ -546,5 +652,19 @@ color: white;
     .skills p{
         font-size: 11.55px;
     font-weight: bold;
+    }
+    #contact h1{
+        font-size: 20px;
+    }
+    #contact h3{
+        font-size: 11.55px; 
+    }
+    #contact{
+        padding-right: 10%;
+        padding-left: 10%;
+    }
+    #contact .links a{
+        margin: 3%;
+        font-size: 30px ;
     }
 }
